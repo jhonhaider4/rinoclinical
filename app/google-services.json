@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "741998560110",
+    "firebase_url": "https://karigarhub2.firebaseio.com",
+    "project_id": "karigarhub2",
+    "storage_bucket": "karigarhub2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741998560110:android:cf3226f2ea5b3598",
+        "android_client_info": {
+          "package_name": "com.example.karigarhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741998560110-nel0596hpjvct5lpjrnem130q8b0ffqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karigarhub",
+            "certificate_hash": "701b883b3776226fc85a07aea672c7c67f247f96"
+          }
+        },
+        {
+          "client_id": "741998560110-b8hqk7ek2v48d9vhpjdco0dt01h3r8tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw5niyjrfyPcfiUrMsFWfF24rFbkHb7iE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741998560110-b8hqk7ek2v48d9vhpjdco0dt01h3r8tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

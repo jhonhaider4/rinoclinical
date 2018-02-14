@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.karigarhub.RegisterUser"
+    android:background="@android:color/black"
+    >
+
+    <EditText
+        android:id="@+id/userFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:textColor="@android:color/white"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/userLastName"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/userFirstName"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/userPhoneNo"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/userLastName"
+        android:layout_alignRight="@+id/userLastName"
+        android:layout_below="@+id/userLastName"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="Phone No"
+        android:textColorHint="@android:color/white"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/UserCNICNo"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userPhoneNo"
+        android:layout_alignStart="@+id/userPhoneNo"
+        android:layout_below="@+id/userPhoneNo"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="CNIC No"
+        android:textColorHint="@android:color/white"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/UserCNICNo"
+        android:layout_alignRight="@+id/UserCNICNo"
+        android:layout_below="@+id/UserCNICNo"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Email"
+        android:textColorHint="@android:color/white"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/userPassword"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userEmail"
+        android:layout_alignStart="@+id/userEmail"
+        android:layout_below="@+id/userEmail"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@android:color/white"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginStart="129dp"
+        android:onClick="registerClick"
+        android:text="REGISTER" />
+</RelativeLayout>
